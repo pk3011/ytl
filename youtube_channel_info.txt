@@ -1,0 +1,28 @@
+~~ DO NOT EDIT THE FIRST 2 LINES
+~~ FORMAT: <channel name> | <group name> | <logo> | <tvg-id>
+
+
+TV9 Bharatvarsh | Hindi | https://www.lyngsat-logo.com/logo/tv/tt/tv-9-bharatvarsh-in.png |
+https://www.youtube.com/live/nSpwwcHVp80
+
+Republic Bharat | Hindi | https://www.lyngsat-logo.com/logo/tv/rr/republic-bharat-in.png |
+https://www.youtube.com/channel/UC7wXt18f2iA3EDXeqAVuKng/live
+
+Aajtak | Hindi | https://www.lyngsat-logo.com/logo/tv/aa/aaj_tak.png |
+https://www.youtube.com/user/aajtaktv/live
+
+Aajtak | Hindi | https://www.lyngsat-logo.com/logo/tv/aa/aaj_tak.png |
+https://www.youtube.com/channel/UCt4t-jeY85JegMlZ-E5UWtA/live
+
+ABP NEWS | Hindi | https://www.lyngsat-logo.com/logo/tv/aa/abp-news-in.png |
+https://www.youtube.com/user/abpnewstv/live
+
+ABP Ganga | Hindi | https://www.lyngsat-logo.com/logo/tv/aa/abp-ganga-in.png |
+https://www.youtube.com/channel/UCUGwnDFBHY52YhgVjn-Tvww/live
+
+DD NEWS | Hindi | https://www.lyngsat-logo.com/logo/tv/dd/dd-news-in.png |
+https://www.youtube.com/user/DDNewsofficial/live
+
+Bharat Samachar | Hindi | https://www.lyngsat-logo.com/logo/tv/bb/bharat_samachar_in.png |
+https://www.youtube.com/channel/UC8Xb-hkR53QVN4GlUHi1iZg/live
+
