@@ -26,5 +26,5 @@ jobs:
           git commit -m "Auto-update M3U playlist"
           git push
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
           
