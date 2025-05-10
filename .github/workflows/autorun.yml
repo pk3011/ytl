@@ -1,17 +1,17 @@
 name: Auto Update M3U Playlist
-name: Auto Update M3U Playlist
 
 on:
   schedule:
-    - cron: '0 */2 * * *'
-  workflow_dispatch:
+    - cron: '0 */2 * * *'  # Every 2 hours
+  workflow_dispatch:        # Allow manual trigger
 
 permissions:
-  contents: write
+  contents: write  # Required to push changes
 
 jobs:
   update-playlist:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -22,13 +22,14 @@ jobs:
       - name: Run autorun.sh Script
         run: ./autorun.sh
 
-      - name: Commit and Push Changes
+      - name: Configure Git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.TOKEN }}@github.com/${{ github.repository }}.git
+
+      - name: Commit and Push Changes
+        run: |
           git add youtube.m3u
-          git commit -m "Auto-update M3U playlist"
+          git commit -m "Auto-update M3U playlist" || echo "No changes to commit"
           git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
-          
