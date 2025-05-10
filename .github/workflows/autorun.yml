@@ -1,9 +1,13 @@
 name: Auto Update M3U Playlist
+name: Auto Update M3U Playlist
 
 on:
   schedule:
-    - cron: '0 */2 * * *'  # Runs every 2 hours
-  workflow_dispatch:       # Allows manual triggering
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update-playlist:
